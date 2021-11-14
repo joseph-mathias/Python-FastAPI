@@ -4,7 +4,7 @@ It is accessed through a REST API to call common building blocks for an app
 
 Requirements:
 
-    Python 3.6 or higher.
+    Python 3.6 or higher
 
 FastAPI stands on the shoulders of giants:
 
@@ -13,12 +13,12 @@ FastAPI stands on the shoulders of giants:
 
 Installation:
 
-    pip install fastapi.
+    pip install fastapi
     
 An ASGI server is needed, for production such as Uvicorn or Hypercorn.
 
-    pip install "uvicorn[standard]".
+    pip install "uvicorn[standard]"
     
 Run it on the server with:
 
-    uvicorn main:app --reload.
+    uvicorn main:app --reload
